@@ -41,6 +41,6 @@ Visto meu erro, descidi usar modestos 50ms ou 20 FPS para a taxa de atualizaçã
 
 Problemas com o tempo.
 
-<img src=”https://user-images.githubusercontent.com/37257011/84936029-00a88c00-b0b0-11ea-903e-3d39d6aa6695.png”>
+![](https://user-images.githubusercontent.com/37257011/84936029-00a88c00-b0b0-11ea-903e-3d39d6aa6695.png)
 
-<img src=”https://user-images.githubusercontent.com/37257011/84936039-01d9b900-b0b0-11ea-84bb-421fbce32527.png”>
+![](https://user-images.githubusercontent.com/37257011/84936039-01d9b900-b0b0-11ea-84bb-421fbce32527.png)
