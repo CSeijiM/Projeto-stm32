@@ -77,8 +77,7 @@ int main(void)
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-
-	HAL_Init();
+  HAL_Init();
 
   /* USER CODE BEGIN Init */
 
@@ -94,8 +93,6 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_I2C1_Init();
-
-  SSD1306_Init();
   /* USER CODE BEGIN 2 */
 
 
@@ -107,6 +104,7 @@ int main(void)
   /* USER CODE END 2 */
  
  
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
@@ -114,65 +112,7 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-	  /* USER CODE BEGIN 3 */
-  if(HAL_GetTick()-now > tempobase){
-		  now = HAL_GetTick();
-		  ms++;
-	  }
-
-	  if(HAL_GetTick()-now_display > 100){
-		  now_display = HAL_GetTick();
-		  if(m<10){
-			  SSD1306_GotoXY (0,20); // goto 10, 10
-			  SSD1306_Puts ("0", &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-			  SSD1306_GotoXY (16,20); // goto 10, 10
-			  SSD1306_Puts (c_m, &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-		  }
-		  else{
-		  SSD1306_GotoXY (0,20); // goto 10, 10
-		  SSD1306_Puts (c_m, &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-		  }
-
-		  if(s<10){
-			  SSD1306_GotoXY (54,20); // goto 10, 10
-			  SSD1306_Puts ("0", &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-			  SSD1306_GotoXY (70,20); // goto 10, 10
-			  SSD1306_Puts (c_s, &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-		  }
-		  else{
-			  SSD1306_GotoXY (54,20); // goto 10, 10
-			  SSD1306_Puts (c_s, &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-		  }
-
-		  SSD1306_GotoXY (36,20); // goto 10, 10
-		  SSD1306_Puts (":", &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-
-		  SSD1306_GotoXY (86,20); // goto 10, 10
-		  SSD1306_Puts (":", &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-
-		  SSD1306_GotoXY (102,20); // goto 10, 10
-		  SSD1306_Puts (c_ms, &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-
-		  SSD1306_UpdateScreen(); // update screen
-	  }
-
-	  if(ms>9){ //valor 10
-		  s++;
-		  ms=0;
-		  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-		  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_14);
-	  }
-	  if(s>59){
-		  m++;
-		  s=0;
-	  }
-	  if(m>59){
-		  m=0;
-	  }
-
-	  itoa(ms,c_ms,10);
-	  itoa(s,c_s,10);
-	  itoa(m,c_m,10);
+    /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }

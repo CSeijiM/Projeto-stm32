@@ -39,8 +39,14 @@ Por curiosidade, fiz algumas pesquisas pra saber qual seria a maxima taxa de atu
 
 Visto meu erro, descidi usar modestos 50ms ou 20 FPS para a taxa de atualização e apenas exibir os decimos de segundo.
 
-Problemas com o tempo.
+Problemas com o tempo. (17/06/2020)
+
+Como é possivel verificar na figura 1 tive alguns problemas com a contagem de tempo, neste caso aumentei o tempo de atuzalização do display para 100ms, tal mudança proporcionou resultado satisfatório visto na imagem 2. 
 
 ![](https://user-images.githubusercontent.com/37257011/84936029-00a88c00-b0b0-11ea-903e-3d39d6aa6695.png)
 
-![](https://user-images.githubusercontent.com/37257011/84936039-01d9b900-b0b0-11ea-84bb-421fbce32527.png)
+Imagem 1
+
+![](https://user-images.githubusercontent.com/37257011/84948082-8da81100-b0c1-11ea-9261-96e71a5e5d34.png)
+
+Imagem 2

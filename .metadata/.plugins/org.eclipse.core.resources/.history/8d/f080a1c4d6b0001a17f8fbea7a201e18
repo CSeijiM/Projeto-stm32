@@ -114,13 +114,12 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-	  /* USER CODE BEGIN 3 */
-  if(HAL_GetTick()-now > tempobase){
+	  if(HAL_GetTick()-now > tempobase){
 		  now = HAL_GetTick();
 		  ms++;
 	  }
 
-	  if(HAL_GetTick()-now_display > 100){
+	  if(HAL_GetTick()-now_display > 50){
 		  now_display = HAL_GetTick();
 		  if(m<10){
 			  SSD1306_GotoXY (0,20); // goto 10, 10
@@ -156,7 +155,7 @@ int main(void)
 		  SSD1306_UpdateScreen(); // update screen
 	  }
 
-	  if(ms>9){ //valor 10
+	  if(ms>(1000/115)){ //valor 10
 		  s++;
 		  ms=0;
 		  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
@@ -173,6 +172,7 @@ int main(void)
 	  itoa(ms,c_ms,10);
 	  itoa(s,c_s,10);
 	  itoa(m,c_m,10);
+	  /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }

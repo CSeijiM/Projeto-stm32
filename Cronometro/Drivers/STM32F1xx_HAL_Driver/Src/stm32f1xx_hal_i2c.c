@@ -3329,9 +3329,7 @@ HAL_StatusTypeDef HAL_I2C_Mem_Read_DMA(I2C_HandleTypeDef *hi2c, uint16_t DevAddr
 HAL_StatusTypeDef HAL_I2C_IsDeviceReady(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint32_t Trials, uint32_t Timeout)
 {
   /* Get tick */
-
-
-	uint32_t tickstart = HAL_GetTick();
+  uint32_t tickstart = HAL_GetTick();
   uint32_t I2C_Trials = 1U;
   FlagStatus tmp1;
   FlagStatus tmp2;

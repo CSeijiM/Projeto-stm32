@@ -130,12 +130,12 @@ int main(void)
  8000178:	61bb      	str	r3, [r7, #24]
  800017a:	2300      	movs	r3, #0
  800017c:	617b      	str	r3, [r7, #20]
-
   while (1)
   {
     /* USER CODE END WHILE */
 
-	  if(HAL_GetTick()-now > tempobase){
+	  /* USER CODE BEGIN 3 */
+  if(HAL_GetTick()-now > tempobase){
  800017e:	f000 fd6f 	bl	8000c60 <HAL_GetTick>
  8000182:	4602      	mov	r2, r0
  8000184:	69bb      	ldr	r3, [r7, #24]
@@ -152,12 +152,12 @@ int main(void)
  8000198:	627b      	str	r3, [r7, #36]	; 0x24
 	  }
 
-	  if(HAL_GetTick()-now_display > 50){
+	  if(HAL_GetTick()-now_display > 100){
  800019a:	f000 fd61 	bl	8000c60 <HAL_GetTick>
  800019e:	4602      	mov	r2, r0
  80001a0:	697b      	ldr	r3, [r7, #20]
  80001a2:	1ad3      	subs	r3, r2, r3
- 80001a4:	2b32      	cmp	r3, #50	; 0x32
+ 80001a4:	2b64      	cmp	r3, #100	; 0x64
  80001a6:	d965      	bls.n	8000274 <main+0x128>
 		  now_display = HAL_GetTick();
  80001a8:	f000 fd5a 	bl	8000c60 <HAL_GetTick>
@@ -273,9 +273,9 @@ int main(void)
  8000270:	f000 f9d0 	bl	8000614 <SSD1306_UpdateScreen>
 	  }
 
-	  if(ms>(1000/115)){ //valor 10
+	  if(ms>9){ //valor 10
  8000274:	6a7b      	ldr	r3, [r7, #36]	; 0x24
- 8000276:	2b08      	cmp	r3, #8
+ 8000276:	2b09      	cmp	r3, #9
  8000278:	dd0e      	ble.n	8000298 <main+0x14c>
 		  s++;
  800027a:	6a3b      	ldr	r3, [r7, #32]
@@ -332,7 +332,7 @@ int main(void)
  80002d2:	4619      	mov	r1, r3
  80002d4:	69f8      	ldr	r0, [r7, #28]
  80002d6:	f002 f8c3 	bl	8002460 <itoa>
-	  if(HAL_GetTick()-now > tempobase){
+  if(HAL_GetTick()-now > tempobase){
  80002da:	e750      	b.n	800017e <main+0x32>
  80002dc:	20000000 	.word	0x20000000
  80002e0:	08002508 	.word	0x08002508
@@ -3670,9 +3670,7 @@ HAL_StatusTypeDef HAL_I2C_IsDeviceReady(I2C_HandleTypeDef *hi2c, uint16_t DevAdd
  80015a8:	460b      	mov	r3, r1
  80015aa:	817b      	strh	r3, [r7, #10]
   /* Get tick */
-
-
-	uint32_t tickstart = HAL_GetTick();
+  uint32_t tickstart = HAL_GetTick();
  80015ac:	f7ff fb58 	bl	8000c60 <HAL_GetTick>
  80015b0:	61f8      	str	r0, [r7, #28]
   uint32_t I2C_Trials = 1U;

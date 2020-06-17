@@ -156,7 +156,7 @@ int main(void)
 		  SSD1306_UpdateScreen(); // update screen
 	  }
 
-	  if(ms>9){ //valor 10
+	  if(ms>10){ //valor 10
 		  s++;
 		  ms=0;
 		  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
