@@ -1,4 +1,4 @@
-17:32:43 **** Incremental Build of configuration Debug for project Cronometro ****
+19:26:26 **** Incremental Build of configuration Debug for project Cronometro ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "Cronometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Cronometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Cronometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -8,13 +8,13 @@ arm-none-eabi-objdump -h -S  Cronometro.elf  > "Cronometro.list"
 arm-none-eabi-objcopy  -O binary  Cronometro.elf  "Cronometro.bin"
 arm-none-eabi-size   Cronometro.elf 
    text	   data	    bss	    dec	    hex	filename
-  14512	     28	   2684	  17224	   4348	Cronometro.elf
+  13640	     28	   2684	  16352	   3fe0	Cronometro.elf
 Finished building: default.size.stdout
  
 Finished building: Cronometro.bin
- 
 Finished building: Cronometro.list
  
+ 
 
-17:32:46 Build Finished. 0 errors, 0 warnings. (took 2s.772ms)
+19:26:29 Build Finished. 0 errors, 0 warnings. (took 2s.441ms)
 

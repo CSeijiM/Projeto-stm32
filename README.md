@@ -1,4 +1,4 @@
-Projeto de Cronômetro.
+#Projeto de Cronômetro.
 
 O que usei para desenvolver o projeto:
 
@@ -9,7 +9,7 @@ Display: OLED 0.91″ 128×32 I2C White
 Instrumento de medição: HANTEK6022BE
 
 
-Iniciando (16/06/2020).
+##Iniciando (16/06/2020).
 
 Neste dia inicie o projeto tentando usar o display OLED junta da placa BluePill. Usei este site https://controllerstech.com/oled-display-using-i2c-stm32/ como referência.
 
@@ -20,7 +20,7 @@ if(HAL_GetTick()-now > tempobase){
 		  ms++;
 	  }
 
-    if(ms>999{ //valor 10
+    if(ms>9{ //valor 10
         s++;
         ms=0;
         HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
@@ -39,14 +39,26 @@ Por curiosidade, fiz algumas pesquisas pra saber qual seria a maxima taxa de atu
 
 Visto meu erro, descidi usar modestos 50ms ou 20 FPS para a taxa de atualização e apenas exibir os decimos de segundo.
 
-Problemas com o tempo. (17/06/2020)
+##Problemas com o tempo. (17/06/2020)
 
 Como é possivel verificar na figura 1 tive alguns problemas com a contagem de tempo, neste caso aumentei o tempo de atuzalização do display para 100ms, tal mudança proporcionou resultado satisfatório visto na imagem 2. 
 
 ![](https://user-images.githubusercontent.com/37257011/84936029-00a88c00-b0b0-11ea-903e-3d39d6aa6695.png)
 
-Imagem 1
+#####Imagem 1
 
 ![](https://user-images.githubusercontent.com/37257011/84948082-8da81100-b0c1-11ea-9261-96e71a5e5d34.png)
 
-Imagem 2
+#####Imagem 2
+
+##Sensores. 18/06/2020
+
+Para o controle do cronômetro utilizei botões. Isso causou um problema ao projeto o famoso bounce, que foi resolvido com um "delay" na leitura do input.
+O projeto foi dividido em três estados, primeiro (status=0) o cronômetro é zerado, segundo (status=1) inicia a contagem e terceiro (status=2) a contagem é pausada.
+
+Este foi o passo a passo / diário do desenvovimento de um cronômetro. Caso alguém tenha alguma dúvidas do projeto ou ideias estarei a disposição.
+
+
+
+
+

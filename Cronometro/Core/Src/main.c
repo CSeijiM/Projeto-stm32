@@ -77,8 +77,7 @@ int main(void)
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-
-	HAL_Init();
+  HAL_Init();
 
   /* USER CODE BEGIN Init */
 
@@ -94,19 +93,18 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_I2C1_Init();
-
-  SSD1306_Init();
   /* USER CODE BEGIN 2 */
 
 
-
+  uint8_t status=0,button=0;
   int tempobase=100,ms=0,s=0,m=0;
-  uint32_t now=0,now_display=0;
+  uint32_t now=0,now_display=0,now_button=0;
   char c_ms[2],c_s[2],c_m[2];
 
   /* USER CODE END 2 */
  
  
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
@@ -114,53 +112,41 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-	  /* USER CODE BEGIN 3 */
-  if(HAL_GetTick()-now > tempobase){
+    /* USER CODE BEGIN 3 */
+
+	  //Lê botão
+	  while(HAL_GPIO_ReadPin(GPIOC,GPIO_PIN_14)==GPIO_PIN_RESET){
+		  if(HAL_GetTick()-now_button > 100){
+			  now_button = HAL_GetTick();
+			  button=1;
+		  }
+	  }
+
+	  //Zera cronometro
+	  if(status==0){
+		  ms=0;
+		  s=0;
+		  m=0;
+	  }
+
+	  if(button==1){
+		  button=0;
+		  if(status<3){
+			  status++;
+		  }
+		  else status=0;
+	  }
+
+	  // Contador do tempo
+
+	  if(HAL_GetTick()-now > tempobase && status==2){
 		  now = HAL_GetTick();
 		  ms++;
 	  }
-
-	  if(HAL_GetTick()-now_display > 100){
-		  now_display = HAL_GetTick();
-		  if(m<10){
-			  SSD1306_GotoXY (0,20); // goto 10, 10
-			  SSD1306_Puts ("0", &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-			  SSD1306_GotoXY (16,20); // goto 10, 10
-			  SSD1306_Puts (c_m, &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-		  }
-		  else{
-		  SSD1306_GotoXY (0,20); // goto 10, 10
-		  SSD1306_Puts (c_m, &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-		  }
-
-		  if(s<10){
-			  SSD1306_GotoXY (54,20); // goto 10, 10
-			  SSD1306_Puts ("0", &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-			  SSD1306_GotoXY (70,20); // goto 10, 10
-			  SSD1306_Puts (c_s, &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-		  }
-		  else{
-			  SSD1306_GotoXY (54,20); // goto 10, 10
-			  SSD1306_Puts (c_s, &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-		  }
-
-		  SSD1306_GotoXY (36,20); // goto 10, 10
-		  SSD1306_Puts (":", &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-
-		  SSD1306_GotoXY (86,20); // goto 10, 10
-		  SSD1306_Puts (":", &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-
-		  SSD1306_GotoXY (102,20); // goto 10, 10
-		  SSD1306_Puts (c_ms, &Font_16x26, SSD1306_COLOR_WHITE); // tempo
-
-		  SSD1306_UpdateScreen(); // update screen
-	  }
-
 	  if(ms>9){ //valor 10
 		  s++;
 		  ms=0;
 		  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-		  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_14);
 	  }
 	  if(s>59){
 		  m++;
@@ -173,6 +159,44 @@ int main(void)
 	  itoa(ms,c_ms,10);
 	  itoa(s,c_s,10);
 	  itoa(m,c_m,10);
+
+	  //Atualiza display
+
+	  if(HAL_GetTick()-now_display > 100){
+		  now_display = HAL_GetTick();
+		  if(m<10){
+			  SSD1306_GotoXY (0,20);
+			  SSD1306_Puts ("0", &Font_16x26, SSD1306_COLOR_WHITE);
+			  SSD1306_GotoXY (16,20);
+			  SSD1306_Puts (c_m, &Font_16x26, SSD1306_COLOR_WHITE);
+		  }
+		  else{
+		  SSD1306_GotoXY (0,20);
+		  SSD1306_Puts (c_m, &Font_16x26, SSD1306_COLOR_WHITE);
+		  }
+
+		  if(s<10){
+			  SSD1306_GotoXY (54,20);
+			  SSD1306_Puts ("0", &Font_16x26, SSD1306_COLOR_WHITE);
+			  SSD1306_GotoXY (70,20);
+			  SSD1306_Puts (c_s, &Font_16x26, SSD1306_COLOR_WHITE);
+		  }
+		  else{
+			  SSD1306_GotoXY (54,20);
+			  SSD1306_Puts (c_s, &Font_16x26, SSD1306_COLOR_WHITE);
+		  }
+
+		  SSD1306_GotoXY (36,20);
+		  SSD1306_Puts (":", &Font_16x26, SSD1306_COLOR_WHITE);
+
+		  SSD1306_GotoXY (86,20);
+		  SSD1306_Puts (":", &Font_16x26, SSD1306_COLOR_WHITE);
+
+		  SSD1306_GotoXY (102,20);
+		  SSD1306_Puts (c_ms, &Font_16x26, SSD1306_COLOR_WHITE);
+		  SSD1306_UpdateScreen();
+	  }
+
   }
   /* USER CODE END 3 */
 }
@@ -264,13 +288,19 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13|GPIO_PIN_14, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : PC13 PC14 */
-  GPIO_InitStruct.Pin = GPIO_PIN_13|GPIO_PIN_14;
+  /*Configure GPIO pin : PC13 */
+  GPIO_InitStruct.Pin = GPIO_PIN_13;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PC14 */
+  GPIO_InitStruct.Pin = GPIO_PIN_14;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
 }
