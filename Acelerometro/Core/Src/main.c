@@ -66,7 +66,11 @@ float acc_error_x = 0,acc_error_y = 0, gyro_error_x = 0, gyro_error_y = 0,
 	  timePrev = 0, time = 0, elapsed = 0,
 	  gyro_angle_x = 0, gyro_angle_y = 0,
 	  acc_angle_x = 0, acc_angle_y = 0,
-	  final_angle_x = 0, final_angle_y = 0;
+	  final_angle_x = 0, final_angle_y = 0, time_PID = 0,
+	  erro = 0, saida = 0;
+
+const float kp=0,ki=0,kd=0,
+			setpoint = 90;
 
 int acc_error=0,gyro_error=0,i;
 /* USER CODE END 0 */
@@ -112,7 +116,35 @@ int main(void)
   myMpuConfig.Sleep_Mode_Bit = 0;
   MPU6050_Config(&myMpuConfig);
 
+  //acc_error
+  if(acc_error==0){
+	  for(i=0;i<200;i++){
 
+		  MPU6050_Get_Accel_RawData(&myAccelRaw);
+
+		  acc_error_x+=atan(myAccelRaw.y/sqrt(pow(myAccelRaw.x,2)+pow(myAccelRaw.z,2)))*(180/3.141592654);
+		  acc_error_y+=atan(myAccelRaw.x*-1/sqrt(pow(myAccelRaw.y,2)+pow(myAccelRaw.z,2)))*(180/3.141592654);
+		  if(i==199){
+			  acc_error_x/=200;
+			  acc_error_y/=200;
+			  acc_error=1;
+		  }
+	  }
+  }
+  //gyro error
+  if(gyro_error==0){
+	  for(i=0;i<200;i++){
+		  MPU6050_Get_Gyro_RawData(&myGyroRaw);
+
+		  gyro_error_x+=(myGyroRaw.x/65.5);
+		  gyro_error_y+=(myGyroRaw.y/65.5);
+		  if(i==199){
+			  gyro_error_x/=200;
+			  gyro_error_y/=200;
+			  gyro_error=1;
+		  }
+	  }
+  }
     /* USER CODE END 2 */
  
   /* Infinite loop */
@@ -122,35 +154,6 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  //acc_error
-	  if(acc_error==0){
-		  for(i=0;i<200;i++){
-
-			  MPU6050_Get_Accel_RawData(&myAccelRaw);
-
-			  acc_error_x+=atan(myAccelRaw.y/sqrt(pow(myAccelRaw.x,2)+pow(myAccelRaw.z,2)))*(180/3.141592654);
-			  acc_error_y+=atan(myAccelRaw.x*-1/sqrt(pow(myAccelRaw.y,2)+pow(myAccelRaw.z,2)))*(180/3.141592654);
-			  if(i==199){
-				  acc_error_x/=200;
-				  acc_error_y/=200;
-				  acc_error=1;
-			  }
-		  }
-	  }
-	  //gyro error
-	  if(gyro_error==0){
-		  for(i=0;i<200;i++){
-			  MPU6050_Get_Gyro_RawData(&myGyroRaw);
-
-			  gyro_error_x+=(myGyroRaw.x/65.5);
-			  gyro_error_y+=(myGyroRaw.y/65.5);
-			  if(i==199){
-				  gyro_error_x/=200;
-				  gyro_error_y/=200;
-				  gyro_error=1;
-			  }
-		  }
-	  }
 	  timePrev = time;
 	  time = HAL_GetTick();
 	  elapsed = (time - timePrev) / 1000;
@@ -168,7 +171,14 @@ int main(void)
 	  final_angle_x = 0.98*(final_angle_x + gyro_angle_x) + 0.02*acc_angle_x;
 	  final_angle_y = 0.98*(final_angle_y + gyro_angle_y) + 0.02*acc_angle_y;
 
-	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+	  erro = final_angle_y - setpoint;
+
+	  if(HAL_GetTick()-time_PID>1000){
+		  time_PID=HAL_GetTick();
+		  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13); // pisca o led
+
+		  saida = kp*erro; // devo atualizar o calculo.
+	  }
 
   }
   /* USER CODE END 3 */
