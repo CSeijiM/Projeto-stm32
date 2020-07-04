@@ -1,4 +1,4 @@
-23:17:12 **** Incremental Build of configuration Debug for project Acelerometro ****
+23:59:57 **** Incremental Build of configuration Debug for project Acelerometro ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -8,7 +8,7 @@ arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
 arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
 arm-none-eabi-size   Acelerometro.elf 
    text	   data	    bss	    dec	    hex	filename
-  20756	    124	   1956	  22836	   5934	Acelerometro.elf
+  24764	    124	   2092	  26980	   6964	Acelerometro.elf
 Finished building: default.size.stdout
  
 Finished building: Acelerometro.bin
@@ -16,5 +16,5 @@ Finished building: Acelerometro.bin
 Finished building: Acelerometro.list
  
 
-23:17:15 Build Finished. 0 errors, 0 warnings. (took 2s.500ms)
+23:59:59 Build Finished. 0 errors, 0 warnings. (took 2s.803ms)
 

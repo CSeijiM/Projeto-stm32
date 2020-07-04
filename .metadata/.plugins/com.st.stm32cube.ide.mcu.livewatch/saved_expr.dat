@@ -1,4 +1,5 @@
-myAccelRaw
-myGyroRaw
-myAccelScaled
-myGyroScaled
+erro_init
+erro_derivado
+saida
+erro_final
+erro_integrado

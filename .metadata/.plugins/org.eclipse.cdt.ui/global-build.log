@@ -1154,3 +1154,348 @@ Finished building: Acelerometro.bin
  
 Finished building: Acelerometro.list
  
+10:45:52 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20756	    124	   1956	  22836	   5934	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+11:24:20 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20716	    124	   1956	  22796	   590c	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
+11:39:19 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:178:32: error: 'final_angle_y' undeclared (first use in this function); did you mean 'final_angle_x'?
+     final_angle_y_init = 0.98*(final_angle_y + gyro_angle_y) + 0.02*acc_angle_y;
+                                ^~~~~~~~~~~~~
+                                final_angle_x
+../Core/Src/main.c:178:32: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+11:39:46 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20900	    124	   1948	  22972	   59bc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
+12:11:04 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20900	    124	   1948	  22972	   59bc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
+12:12:09 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20900	    124	   1948	  22972	   59bc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+12:12:43 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20900	    124	   1948	  22972	   59bc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+12:12:46 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20900	    124	   1948	  22972	   59bc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+15:43:04 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20244	    124	   1932	  22300	   571c	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
+16:01:05 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:4: error: 'erro' undeclared (first use in this function); did you mean 'erfl'?
+    erro = final_angle_y_init - setpoint;
+    ^~~~
+    erfl
+../Core/Src/main.c:158:4: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:38: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+16:01:39 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21212	    124	   1964	  23300	   5b04	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
+16:25:00 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21196	    124	   1964	  23284	   5af4	Acelerometro.elf
+Finished building: default.size.stdout
+Finished building: Acelerometro.bin
+ 
+ 
+Finished building: Acelerometro.list
+ 
+16:25:24 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21196	    124	   1964	  23284	   5af4	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+16:25:57 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21196	    124	   1964	  23284	   5af4	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+16:28:10 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21212	    124	   1964	  23300	   5b04	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
+16:28:13 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21212	    124	   1964	  23300	   5b04	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+16:28:37 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21212	    124	   1964	  23300	   5b04	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+16:28:58 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21212	    124	   1964	  23300	   5b04	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+16:29:21 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21212	    124	   1964	  23300	   5b04	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+16:29:53 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21212	    124	   1964	  23300	   5b04	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+16:42:07 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21212	    124	   1964	  23300	   5b04	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
+18:35:50 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Core/Src/TJ_MPU6050.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/TJ_MPU6050.d" -MT"Core/Src/TJ_MPU6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/TJ_MPU6050.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24572	    124	   2092	  26788	   68a4	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
+21:39:24 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24764	    124	   2092	  26980	   6964	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
+23:47:57 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24764	    124	   2092	  26980	   6964	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+23:57:59 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24764	    124	   2092	  26980	   6964	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
+23:58:42 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24764	    124	   2092	  26980	   6964	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
+23:59:57 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Acelerometro.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Acelerometro.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Acelerometro.elf
+ 
+arm-none-eabi-objdump -h -S  Acelerometro.elf  > "Acelerometro.list"
+arm-none-eabi-objcopy  -O binary  Acelerometro.elf  "Acelerometro.bin"
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24764	    124	   2092	  26980	   6964	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+Finished building: Acelerometro.bin
+ 
+Finished building: Acelerometro.list
+ 
