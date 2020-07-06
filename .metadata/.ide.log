@@ -932,3 +932,790 @@
 2020-07-03 18:29:10,159 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1882mS.
 2020-07-03 18:29:10,160 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
 2020-07-03 18:29:10,169 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-04 10:52:45,547 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:45,550 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:45,552 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:45,552 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:45,554 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:45,554 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:45,555 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:45,555 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:58,480 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 559338552 Bytes (1073741824)
+2020-07-04 10:52:58,719 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 574018616 Bytes (1073741824)
+2020-07-04 10:52:58,888 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-04 10:52:58,888 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-04 10:52:58,888 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-04 10:52:58,889 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-04 10:52:58,889 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-04 10:52:58,889 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-04 10:52:58,889 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 10:52:58,889 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 10:52:58,891 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-04 10:52:58,895 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:58,895 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:58,896 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:58,897 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 10:52:59,072 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-04 10:52:59,138 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-04 10:52:59,157 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-04 10:52:59,238 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-04 10:52:59,246 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 10:52:59,246 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 10:52:59,263 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 10:52:59,263 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 10:52:59,344 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 10:52:59,347 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-04 10:52:59,348 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 10:52:59,350 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 10:52:59,351 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-04 10:52:59,351 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 10:52:59,354 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-04 10:52:59,354 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 10:52:59,363 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-04 10:52:59,445 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-04 10:52:59,452 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-04 10:52:59,521 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-04 10:52:59,532 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-04 10:52:59,676 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-04 10:52:59,684 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-04 10:52:59,748 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-04 10:52:59,761 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-04 10:52:59,861 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-04 10:52:59,875 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-04 10:52:59,876 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-04 10:52:59,877 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-04 10:52:59,878 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-04 10:52:59,885 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-04 10:52:59,962 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-04 10:52:59,974 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-04 10:53:00,146 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-04 10:53:01,155 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 239mS.
+2020-07-04 10:53:01,159 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-04 10:53:01,408 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-04 10:53:02,798 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1639mS.
+2020-07-04 10:53:02,799 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-04 10:53:02,806 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-04 10:58:24,033 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 684110048 Bytes (1073741824)
+2020-07-04 10:58:25,694 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 700887264 Bytes (1073741824)
+2020-07-04 10:58:25,960 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 713470176 Bytes (1073741824)
+2020-07-04 10:58:26,130 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-04 10:58:26,130 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-04 10:58:26,130 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-04 10:58:26,130 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-04 10:58:26,130 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-04 10:58:26,130 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 10:58:26,131 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 10:58:26,132 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-04 10:58:26,134 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 10:58:26,134 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 10:58:26,135 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 10:58:26,135 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 10:58:26,281 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-04 10:58:26,344 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-04 10:58:26,358 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-04 10:58:26,427 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-04 10:58:26,435 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 10:58:26,435 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 10:58:26,449 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 10:58:26,449 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 10:58:26,509 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 10:58:26,510 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-04 10:58:26,510 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 10:58:26,512 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 10:58:26,514 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-04 10:58:26,515 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 10:58:26,519 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-04 10:58:26,520 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 10:58:26,529 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-04 10:58:26,624 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-04 10:58:26,632 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-04 10:58:26,712 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-04 10:58:26,726 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-04 10:58:26,858 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-04 10:58:26,867 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-04 10:58:26,934 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-04 10:58:26,943 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-04 10:58:27,019 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-04 10:58:27,031 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-04 10:58:27,031 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-04 10:58:27,032 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-04 10:58:27,033 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-04 10:58:27,039 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-04 10:58:27,270 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-04 10:58:27,281 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-04 10:58:27,401 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-04 10:58:28,187 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 220mS.
+2020-07-04 10:58:28,193 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-04 10:58:28,422 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-04 10:58:29,769 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1576mS.
+2020-07-04 10:58:29,771 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-04 10:58:29,777 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-04 11:01:51,530 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 11:01:51,530 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 11:01:51,531 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 11:01:51,531 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 11:01:51,533 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 11:01:51,533 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 11:01:51,534 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 11:01:51,535 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 11:05:49,125 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 599243576 Bytes (1073741824)
+2020-07-04 11:05:49,374 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 612549440 Bytes (1073741824)
+2020-07-04 11:05:49,533 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-04 11:05:49,533 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-04 11:05:49,533 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-04 11:05:49,533 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-04 11:05:49,534 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-04 11:05:49,534 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 11:05:49,534 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 11:05:49,535 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-04 11:05:49,537 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 11:05:49,537 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 11:05:49,538 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 11:05:49,538 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 11:05:49,693 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-04 11:05:49,763 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-04 11:05:49,782 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-04 11:05:49,869 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-04 11:05:49,878 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 11:05:49,878 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 11:05:49,893 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 11:05:49,893 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 11:05:49,950 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 11:05:49,951 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-04 11:05:49,952 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 11:05:49,955 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 11:05:49,957 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-04 11:05:49,958 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 11:05:49,961 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-04 11:05:49,962 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 11:05:49,972 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-04 11:05:50,093 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-04 11:05:50,106 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-04 11:05:50,179 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-04 11:05:50,191 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-04 11:05:50,301 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-04 11:05:50,310 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-04 11:05:50,370 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-04 11:05:50,380 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-04 11:05:50,458 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-04 11:05:50,468 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-04 11:05:50,468 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-04 11:05:50,469 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-04 11:05:50,469 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-04 11:05:50,478 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-04 11:05:50,549 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-04 11:05:50,561 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-04 11:05:50,684 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-04 11:05:51,834 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 241mS.
+2020-07-04 11:05:51,838 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-04 11:05:52,147 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-04 11:05:53,618 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1780mS.
+2020-07-04 11:05:53,620 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-04 11:05:53,628 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-04 11:18:39,993 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,453x472,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-07-04 11:29:05,054 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 444259416 Bytes (1073741824)
+2020-07-04 11:29:06,903 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 472634368 Bytes (1073741824)
+2020-07-04 11:29:07,225 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 514577408 Bytes (1073741824)
+2020-07-04 11:29:07,449 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-04 11:29:07,449 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-04 11:29:07,450 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-04 11:29:07,450 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-04 11:29:07,450 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-04 11:29:07,450 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 11:29:07,450 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 11:29:07,452 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-04 11:29:07,460 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 11:29:07,463 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 11:29:07,464 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 11:29:07,464 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 11:29:07,640 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-04 11:29:07,741 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-04 11:29:07,757 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-04 11:29:07,820 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-04 11:29:07,826 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 11:29:07,826 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 11:29:07,839 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 11:29:07,839 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 11:29:07,895 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 11:29:07,896 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-04 11:29:07,897 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 11:29:07,899 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 11:29:07,901 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-04 11:29:07,901 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 11:29:07,904 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-04 11:29:07,905 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 11:29:07,915 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-04 11:29:08,010 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-04 11:29:08,017 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-04 11:29:08,082 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-04 11:29:08,092 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-04 11:29:08,201 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-04 11:29:08,206 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-04 11:29:08,265 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-04 11:29:08,273 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-04 11:29:08,355 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-04 11:29:08,368 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-04 11:29:08,369 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-04 11:29:08,369 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-04 11:29:08,370 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-04 11:29:08,377 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-04 11:29:08,463 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-04 11:29:08,473 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-04 11:29:08,595 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-04 11:29:09,320 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 208mS.
+2020-07-04 11:29:09,323 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-04 11:29:09,559 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-04 11:29:11,507 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 2184mS.
+2020-07-04 11:29:11,509 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 2mS.
+2020-07-04 11:29:11,515 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-04 17:41:38,019 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 548196592 Bytes (1073741824)
+2020-07-04 17:41:38,187 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-04 17:41:38,187 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-04 17:41:38,187 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-04 17:41:38,188 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-04 17:41:38,188 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-04 17:41:38,188 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 17:41:38,188 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 17:41:38,189 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-04 17:41:38,192 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 17:41:38,193 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 17:41:38,194 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 17:41:38,194 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 17:41:38,346 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-04 17:41:38,428 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-04 17:41:38,451 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-04 17:41:38,526 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-04 17:41:38,533 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 17:41:38,533 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 17:41:38,546 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 17:41:38,547 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 17:41:38,604 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 17:41:38,606 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-04 17:41:38,607 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:41:38,609 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 17:41:38,610 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-04 17:41:38,611 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:41:38,613 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-04 17:41:38,613 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:41:38,621 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-04 17:41:38,708 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-04 17:41:38,714 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-04 17:41:38,787 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-04 17:41:38,800 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-04 17:41:38,933 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-04 17:41:38,943 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-04 17:41:39,004 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-04 17:41:39,015 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-04 17:41:39,100 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-04 17:41:39,112 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-04 17:41:39,113 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-04 17:41:39,114 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-04 17:41:39,115 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-04 17:41:39,122 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-04 17:41:39,228 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-04 17:41:39,242 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-04 17:41:39,445 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-04 17:41:40,741 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 172mS.
+2020-07-04 17:41:40,745 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-04 17:41:41,093 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-04 17:41:42,452 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1707mS.
+2020-07-04 17:41:42,453 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-04 17:41:42,458 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-04 17:53:31,684 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 678354200 Bytes (1073741824)
+2020-07-04 17:53:31,779 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 610759136 Bytes (1073741824)
+2020-07-04 17:53:31,789 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 611750392 Bytes (1073741824)
+2020-07-04 17:53:31,999 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-04 17:53:32,000 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-04 17:53:32,000 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-04 17:53:32,000 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-04 17:53:32,000 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-04 17:53:32,000 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 17:53:32,000 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 17:53:32,001 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-04 17:53:32,004 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 17:53:32,004 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 17:53:32,005 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 17:53:32,005 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 17:53:32,237 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-04 17:53:32,312 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-04 17:53:32,332 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-04 17:53:32,420 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-04 17:53:32,429 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 17:53:32,429 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 17:53:32,519 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 17:53:32,520 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 17:53:32,569 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 17:53:32,571 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-04 17:53:32,571 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:53:32,573 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 17:53:32,576 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-04 17:53:32,576 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:53:32,579 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-04 17:53:32,581 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:53:32,590 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-04 17:53:32,674 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-04 17:53:32,681 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-04 17:53:32,751 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-04 17:53:32,764 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-04 17:53:32,884 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-04 17:53:32,892 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-04 17:53:32,953 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-04 17:53:32,962 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-04 17:53:33,035 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-04 17:53:33,044 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-04 17:53:33,044 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-04 17:53:33,045 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-04 17:53:33,045 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-04 17:53:33,050 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-04 17:53:33,119 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-04 17:53:33,127 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-04 17:53:33,239 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-04 17:53:34,064 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 147mS.
+2020-07-04 17:53:34,068 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-04 17:53:34,456 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-04 17:53:35,641 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1573mS.
+2020-07-04 17:53:35,642 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-04 17:53:35,653 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-04 17:53:36,224 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 552283512 Bytes (1073741824)
+2020-07-04 17:53:36,382 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-04 17:53:36,383 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-04 17:53:36,383 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-04 17:53:36,383 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-04 17:53:36,383 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-04 17:53:36,383 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 17:53:36,383 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 17:53:36,384 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-04 17:53:36,385 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 17:53:36,386 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 17:53:36,386 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 17:53:36,386 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 17:53:36,539 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-04 17:53:36,603 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-04 17:53:36,615 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-04 17:53:36,680 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-04 17:53:36,685 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 17:53:36,685 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 17:53:36,695 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 17:53:36,696 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 17:53:36,740 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 17:53:36,741 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-04 17:53:36,742 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:53:36,745 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 17:53:36,747 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-04 17:53:36,748 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:53:36,751 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-04 17:53:36,752 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:53:36,759 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-04 17:53:36,839 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-04 17:53:36,846 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-04 17:53:36,910 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-04 17:53:36,920 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-04 17:53:37,168 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-04 17:53:37,176 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-04 17:53:37,239 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-04 17:53:37,250 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-04 17:53:37,326 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-04 17:53:37,338 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-04 17:53:37,339 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-04 17:53:37,340 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-04 17:53:37,340 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-04 17:53:37,347 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-04 17:53:37,414 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-04 17:53:37,422 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-04 17:53:37,540 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-04 17:53:38,323 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 120mS.
+2020-07-04 17:53:38,326 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-04 17:53:38,551 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-04 17:53:39,703 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1377mS.
+2020-07-04 17:53:39,705 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-04 17:53:39,718 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-04 17:58:35,563 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 684806688 Bytes (1073741824)
+2020-07-04 17:58:35,716 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-04 17:58:35,716 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-04 17:58:35,716 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-04 17:58:35,716 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-04 17:58:35,716 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-04 17:58:35,716 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 17:58:35,716 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-04 17:58:35,717 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-04 17:58:35,719 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 17:58:35,719 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 17:58:35,720 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-04 17:58:35,720 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-04 17:58:35,870 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-04 17:58:35,932 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-04 17:58:35,946 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-04 17:58:36,009 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-04 17:58:36,014 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 17:58:36,014 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 17:58:36,024 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-04 17:58:36,025 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-04 17:58:36,074 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 17:58:36,075 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-04 17:58:36,076 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:58:36,077 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-04 17:58:36,077 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-04 17:58:36,078 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:58:36,081 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-04 17:58:36,081 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-04 17:58:36,088 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-04 17:58:36,171 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-04 17:58:36,178 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-04 17:58:36,244 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-04 17:58:36,256 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-04 17:58:36,371 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-04 17:58:36,377 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-04 17:58:36,438 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-04 17:58:36,447 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-04 17:58:36,522 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-04 17:58:36,530 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-04 17:58:36,530 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-04 17:58:36,532 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-04 17:58:36,532 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-04 17:58:36,541 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-04 17:58:36,622 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-04 17:58:36,631 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-04 17:58:36,890 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-04 17:58:37,621 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 178mS.
+2020-07-04 17:58:37,624 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-04 17:58:37,857 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-04 17:58:39,026 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1402mS.
+2020-07-04 17:58:39,028 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-04 17:58:39,031 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-05 09:39:14,793 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 733762360 Bytes (1073741824)
+2020-07-05 09:39:17,203 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 743624768 Bytes (1073741824)
+2020-07-05 09:39:17,503 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 756011616 Bytes (1073741824)
+2020-07-05 09:39:17,702 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-05 09:39:17,702 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-05 09:39:17,702 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-05 09:39:17,703 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-05 09:39:17,703 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-05 09:39:17,703 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 09:39:17,703 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 09:39:17,704 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-05 09:39:17,709 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 09:39:17,710 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 09:39:17,711 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 09:39:17,711 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 09:39:18,035 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-05 09:39:18,133 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-05 09:39:18,166 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-05 09:39:18,276 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-05 09:39:18,288 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 09:39:18,288 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 09:39:18,318 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 09:39:18,318 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 09:39:18,523 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 09:39:18,525 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-05 09:39:18,525 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 09:39:18,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 09:39:18,529 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-05 09:39:18,529 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 09:39:18,531 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-05 09:39:18,532 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 09:39:18,539 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-05 09:39:18,643 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-05 09:39:18,654 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-05 09:39:18,731 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-05 09:39:18,743 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-05 09:39:18,878 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-05 09:39:18,884 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-05 09:39:18,943 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-05 09:39:18,953 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-05 09:39:19,034 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-05 09:39:19,045 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-05 09:39:19,045 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-05 09:39:19,046 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-05 09:39:19,046 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-05 09:39:19,052 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-05 09:39:19,125 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-05 09:39:19,132 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-05 09:39:19,240 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-05 09:39:19,802 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 165mS.
+2020-07-05 09:39:19,806 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-05 09:39:20,383 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-05 09:39:21,800 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1994mS.
+2020-07-05 09:39:21,801 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-05 09:39:21,807 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-05 17:37:10,875 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 1027708248 Bytes (1073741824)
+2020-07-05 17:37:13,111 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 858708288 Bytes (1073741824)
+2020-07-05 17:37:13,709 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 871392512 Bytes (1073741824)
+2020-07-05 17:37:14,178 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-05 17:37:14,179 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-05 17:37:14,179 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-05 17:37:14,180 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-05 17:37:14,180 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-05 17:37:14,180 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 17:37:14,180 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 17:37:14,181 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-05 17:37:14,185 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 17:37:14,186 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 17:37:14,187 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 17:37:14,188 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 17:37:14,429 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-05 17:37:14,503 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-05 17:37:14,524 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-05 17:37:14,731 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-05 17:37:14,741 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 17:37:14,741 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 17:37:14,822 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 17:37:14,822 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 17:37:14,878 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 17:37:14,880 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-05 17:37:14,881 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:37:14,883 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 17:37:14,886 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-05 17:37:14,887 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:37:14,889 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-05 17:37:14,890 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:37:14,898 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-05 17:37:15,049 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-05 17:37:15,060 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-05 17:37:15,139 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-05 17:37:15,155 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-05 17:37:15,300 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-05 17:37:15,311 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-05 17:37:15,408 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-05 17:37:15,419 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-05 17:37:15,493 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-05 17:37:15,502 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-05 17:37:15,503 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-05 17:37:15,505 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-05 17:37:15,505 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-05 17:37:15,516 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-05 17:37:15,619 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-05 17:37:15,633 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-05 17:37:15,891 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-05 17:37:16,817 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 248mS.
+2020-07-05 17:37:16,820 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-05 17:37:17,365 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-05 17:37:18,872 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 2052mS.
+2020-07-05 17:37:18,874 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-05 17:37:18,883 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-05 17:49:12,141 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 638440864 Bytes (1073741824)
+2020-07-05 17:49:12,467 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 651347408 Bytes (1073741824)
+2020-07-05 17:49:12,673 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-05 17:49:12,673 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-05 17:49:12,674 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-05 17:49:12,674 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-05 17:49:12,674 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-05 17:49:12,674 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 17:49:12,674 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 17:49:12,675 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-05 17:49:12,678 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 17:49:12,680 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 17:49:12,681 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 17:49:12,681 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 17:49:12,853 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-05 17:49:12,925 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-05 17:49:12,942 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-05 17:49:13,007 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-05 17:49:13,016 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 17:49:13,016 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 17:49:13,032 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 17:49:13,032 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 17:49:13,089 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 17:49:13,092 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-05 17:49:13,093 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:49:13,096 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 17:49:13,097 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-05 17:49:13,098 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:49:13,101 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-05 17:49:13,102 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:49:13,113 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-05 17:49:13,231 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-05 17:49:13,241 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-05 17:49:13,331 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-05 17:49:13,343 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-05 17:49:13,459 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-05 17:49:13,465 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-05 17:49:13,529 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-05 17:49:13,539 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-05 17:49:13,620 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-05 17:49:13,633 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-05 17:49:13,633 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-05 17:49:13,634 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-05 17:49:13,634 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-05 17:49:13,644 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-05 17:49:13,732 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-05 17:49:13,741 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-05 17:49:14,058 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-05 17:49:14,985 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 230mS.
+2020-07-05 17:49:14,991 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-05 17:49:15,239 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-05 17:49:16,667 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1676mS.
+2020-07-05 17:49:16,670 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 2mS.
+2020-07-05 17:49:16,678 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-05 17:56:39,176 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 512187264 Bytes (1073741824)
+2020-07-05 17:56:39,454 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 524243848 Bytes (1073741824)
+2020-07-05 17:56:39,641 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-05 17:56:39,641 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-05 17:56:39,641 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-05 17:56:39,641 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-05 17:56:39,641 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-05 17:56:39,641 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 17:56:39,641 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 17:56:39,642 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-05 17:56:39,645 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 17:56:39,645 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 17:56:39,647 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 17:56:39,648 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 17:56:39,818 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-05 17:56:39,880 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-05 17:56:39,895 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-05 17:56:39,965 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-05 17:56:39,971 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 17:56:39,971 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 17:56:39,983 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 17:56:39,984 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 17:56:40,029 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 17:56:40,031 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-05 17:56:40,032 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:56:40,034 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 17:56:40,035 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-05 17:56:40,035 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:56:40,037 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-05 17:56:40,038 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:56:40,046 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-05 17:56:40,134 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-05 17:56:40,142 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-05 17:56:40,215 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-05 17:56:40,228 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-05 17:56:40,342 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-05 17:56:40,352 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-05 17:56:40,419 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-05 17:56:40,428 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-05 17:56:40,510 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-05 17:56:40,523 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-05 17:56:40,523 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-05 17:56:40,524 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-05 17:56:40,524 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-05 17:56:40,532 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-05 17:56:40,618 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-05 17:56:40,632 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-05 17:56:40,758 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-05 17:56:41,667 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 164mS.
+2020-07-05 17:56:41,671 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-05 17:56:42,079 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-05 17:56:43,282 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1611mS.
+2020-07-05 17:56:43,283 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-05 17:56:43,290 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-05 17:58:37,740 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 841270784 Bytes (1073741824)
+2020-07-05 17:58:37,958 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-05 17:58:37,958 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-05 17:58:37,958 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-05 17:58:37,959 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-05 17:58:37,959 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-05 17:58:37,959 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 17:58:37,959 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 17:58:37,961 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-05 17:58:37,963 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 17:58:37,963 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 17:58:37,964 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 17:58:37,964 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 17:58:38,116 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-05 17:58:38,175 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-05 17:58:38,187 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-05 17:58:38,256 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-05 17:58:38,262 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 17:58:38,262 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 17:58:38,271 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 17:58:38,272 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 17:58:38,318 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 17:58:38,319 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-05 17:58:38,319 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:58:38,321 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 17:58:38,324 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-05 17:58:38,326 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:58:38,328 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-05 17:58:38,329 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:58:38,335 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-05 17:58:38,432 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-05 17:58:38,440 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-05 17:58:38,513 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-05 17:58:38,523 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-05 17:58:38,636 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-05 17:58:38,643 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-05 17:58:38,717 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-05 17:58:38,727 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-05 17:58:38,809 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-05 17:58:38,820 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-05 17:58:38,820 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-05 17:58:38,821 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-05 17:58:38,821 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-05 17:58:38,827 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-05 17:58:38,908 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-05 17:58:38,918 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-05 17:58:39,028 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-05 17:58:39,537 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 105mS.
+2020-07-05 17:58:39,542 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-05 17:58:40,186 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-05 17:58:41,637 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 2095mS.
+2020-07-05 17:58:41,639 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-05 17:58:41,648 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2020-07-05 17:59:51,224 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 682259712 Bytes (1073741824)
+2020-07-05 17:59:51,480 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 694842624 Bytes (1073741824)
+2020-07-05 17:59:51,672 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2020-07-05 17:59:51,672 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2020-07-05 17:59:51,672 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2020-07-05 17:59:51,673 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2020-07-05 17:59:51,673 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2020-07-05 17:59:51,673 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 17:59:51,673 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: I2C
+2020-07-05 17:59:51,674 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2020-07-05 17:59:51,675 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 17:59:51,676 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 17:59:51,676 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 17:59:51,676 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 17:59:51,870 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp_save
+2020-07-05 17:59:51,949 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\license.tmp
+2020-07-05 17:59:51,965 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp_save
+2020-07-05 17:59:52,040 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\gpio.tmp
+2020-07-05 17:59:52,045 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 17:59:52,046 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 17:59:52,055 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_Analogue is not available in your config.xml file
+2020-07-05 17:59:52,056 [ERROR] IPConfigManager:1276 - ERROR: the RefConfig I2C_DigitalFolter is not available in your config.xml file
+2020-07-05 17:59:52,100 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 17:59:52,103 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2020-07-05 17:59:52,104 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:59:52,107 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-05 17:59:52,108 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2020-07-05 17:59:52,109 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:59:52,111 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-05 17:59:52,112 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-05 17:59:52,119 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c_save
+2020-07-05 17:59:52,270 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_it.c
+2020-07-05 17:59:52,279 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h_save
+2020-07-05 17:59:52,353 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_it.h
+2020-07-05 17:59:52,364 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c_save
+2020-07-05 17:59:52,477 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\stm32f1xx_hal_msp.c
+2020-07-05 17:59:52,483 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp_save
+2020-07-05 17:59:52,551 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\MXTmpFiles\system.tmp
+2020-07-05 17:59:52,557 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-07-05 17:59:52,634 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\stm32f1xx_hal_conf.h
+2020-07-05 17:59:52,643 [WARN] IPConfigManager:2706 - IP not found : TIM
+2020-07-05 17:59:52,643 [WARN] IPConfigManager:2706 - IP not found : gpio
+2020-07-05 17:59:52,644 [WARN] CodeGenerator:2776 - IP not found : TIM
+2020-07-05 17:59:52,644 [WARN] CodeGenerator:2776 - IP not found : gpio
+2020-07-05 17:59:52,650 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h_save
+2020-07-05 17:59:52,732 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Inc\main.h
+2020-07-05 17:59:52,743 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c_save
+2020-07-05 17:59:52,864 [INFO] CodeEngine:211 - Generated code: C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Acelerometro\Core\Src\main.c
+2020-07-05 17:59:53,638 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 191mS.
+2020-07-05 17:59:53,641 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2020-07-05 17:59:53,870 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2020-07-05 17:59:55,264 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1623mS.
+2020-07-05 17:59:55,265 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-05 17:59:55,270 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2020-07-05 21:34:20,203 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 21:34:20,205 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 21:34:20,212 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 21:34:20,213 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 21:34:20,953 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 21:34:20,953 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 21:34:20,961 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 21:34:20,961 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 21:34:22,373 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 21:34:22,374 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2020-07-05 21:34:22,380 [WARN] IP:1931 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2020-07-05 21:34:22,381 [WARN] IP:1931 - Analog_Filter not found: check if there is a RefParameter without a condition.

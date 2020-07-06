@@ -23,7 +23,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- ../Core/Inc/TJ_MPU6050.h
+ ../Core/Inc/TJ_MPU6050.h ../Core/Inc/ssd1306.h ../Core/Inc/fonts.h \
+ ../Core/Inc/fonts.h ../Core/Inc/test.h
 
 ../Core/Inc/main.h:
 
@@ -76,3 +77,11 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 
 ../Core/Inc/TJ_MPU6050.h:
+
+../Core/Inc/ssd1306.h:
+
+../Core/Inc/fonts.h:
+
+../Core/Inc/fonts.h:
+
+../Core/Inc/test.h:
