@@ -2829,3 +2829,52 @@ Finished building: Acelerometro.bin
  
 Finished building: Acelerometro.list
  
+02:01:15 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32116	    132	   3076	  35324	   89fc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+10:04:30 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32116	    132	   3076	  35324	   89fc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+23:31:58 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32116	    132	   3076	  35324	   89fc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+23:33:30 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32116	    132	   3076	  35324	   89fc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+23:38:30 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32116	    132	   3076	  35324	   89fc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+23:38:54 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32116	    132	   3076	  35324	   89fc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
+23:39:24 **** Incremental Build of configuration Debug for project Acelerometro ****
+make -j8 all 
+arm-none-eabi-size   Acelerometro.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32116	    132	   3076	  35324	   89fc	Acelerometro.elf
+Finished building: default.size.stdout
+ 
