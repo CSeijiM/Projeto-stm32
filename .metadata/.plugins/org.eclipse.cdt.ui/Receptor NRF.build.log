@@ -1,0 +1,38 @@
+17:23:30 **** Incremental Build of configuration Debug for project Receptor NRF ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:131:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:29,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:237,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:22:
+../Core/Src/main.c: In function 'main':
+../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h:666:29: warning: passing argument 2 of 'NRF24_begin' makes integer from pointer without a cast [-Wint-conversion]
+ #define GPIOB               ((GPIO_TypeDef *)GPIOB_BASE)
+                             ^
+../Core/Src/main.c:100:22: note: in expansion of macro 'GPIOB'
+   NRF24_begin(GPIOB, GPIOB, CSN_PIN_Pin, hspi1);
+                      ^~~~~
+In file included from ../Core/Src/main.c:27:0:
+../Core/Inc/MY_NRF24.h:101:6: note: expected 'uint16_t {aka short unsigned int}' but argument is of type 'GPIO_TypeDef * {aka struct <anonymous> *}'
+ void NRF24_begin(GPIO_TypeDef *nrf24PORT, uint16_t nrfCSN_Pin, uint16_t nrfCE_Pin, SPI_HandleTypeDef nrfSPI);
+      ^~~~~~~~~~~
+arm-none-eabi-gcc -o "Receptor NRF.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\cesar\STM32CubeIDE\workspace_1.2.0\Projeto-stm32\Receptor NRF\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Receptor NRF.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Receptor NRF.elf
+ 
+arm-none-eabi-objdump -h -S  Receptor\ NRF.elf  > "Receptor NRF.list"
+arm-none-eabi-objcopy  -O binary  Receptor\ NRF.elf  "Receptor NRF.bin"
+arm-none-eabi-size   Receptor\ NRF.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16680	    128	   1904	  18712	   4918	Receptor NRF.elf
+Finished building: default.size.stdout
+Finished building: Receptor NRF.bin
+ 
+ 
+Finished building: Receptor NRF.list
+ 
+
+17:23:36 Build Finished. 0 errors, 1 warnings. (took 5s.107ms)
+

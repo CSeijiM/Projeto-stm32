@@ -1,4 +1,4 @@
-16:42:42 **** Incremental Build of configuration Debug for project Cronometro ****
+21:22:47 **** Incremental Build of configuration Debug for project Cronometro ****
 make -j8 all 
 arm-none-eabi-size   Cronometro.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   Cronometro.elf
 Finished building: default.size.stdout
  
 
-16:42:43 Build Finished. 0 errors, 0 warnings. (took 1s.606ms)
+21:22:49 Build Finished. 0 errors, 0 warnings. (took 1s.984ms)
 

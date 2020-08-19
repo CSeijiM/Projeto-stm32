@@ -60,6 +60,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define CSN_PIN_Pin GPIO_PIN_6
+#define CSN_PIN_GPIO_Port GPIOB
+#define CE_PIN_Pin GPIO_PIN_7
+#define CE_PIN_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

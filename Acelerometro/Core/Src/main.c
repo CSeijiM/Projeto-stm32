@@ -26,7 +26,7 @@
 #include "TJ_MPU6050.h"
 #include "math.h"
 
-#include "ssd1306.h"
+#include "ssd1306.h" // Bibliotecas p usar display oled
 #include "fonts.h"
 #include "test.h"
 
@@ -50,6 +50,8 @@
 I2C_HandleTypeDef hi2c1;
 I2C_HandleTypeDef hi2c2;
 
+SPI_HandleTypeDef hspi1;
+
 TIM_HandleTypeDef htim1;
 
 /* USER CODE BEGIN PV */
@@ -62,6 +64,7 @@ static void MX_GPIO_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_I2C2_Init(void);
 static void MX_TIM1_Init(void);
+static void MX_SPI1_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -70,21 +73,21 @@ static void MX_TIM1_Init(void);
 /* USER CODE BEGIN 0 */
 RawData_Def myAccelRaw, myGyroRaw;
 ScaledData_Def myAccelScaled, myGyroScaled;
-float acc_error_x = 0,acc_error_y = 0, gyro_error_x = 0, gyro_error_y = 0,
+double acc_error_x = 0,acc_error_y = 0, gyro_error_x = 0, gyro_error_y = 0,
 	  timePrev = 0, time = 0, elapsed = 0,
 	  gyro_angle_x = 0, gyro_angle_y = 0,
 	  acc_angle_x = 0, acc_angle_y = 0,
 	  final_angle_x = 0, final_angle_y_init = 0, final_angle_y_final = 0, time_PID = 0,
-	  erro_init = 0, erro_final = 0, saida = 0, erro_integrado = 0, erro_derivado = 0,
+	  erro_init = 0, erro_final = 0, saida = 0, aux_saida, erro_integrado = 0, erro_derivado = 0,
 	  time_velocity_initial = 0, time_velocity_final = 0, time_pwm = 0, now_display = 0,
 	  angular_velocity = 0;
 
 char angle[5];
 
-const float kp=2,ki=0.001,kd=0.001,
-			setpoint = 0;
+const float kp=13,ki=0.25,kd=0,
+			setpoint = 3;
 
-int acc_error = 0 ,gyro_error = 0 ,i,pwm = 0;
+int acc_error = 0 ,gyro_error = 0 ,i;
 /* USER CODE END 0 */
 
 /**
@@ -119,7 +122,11 @@ int main(void)
   MX_I2C1_Init();
   MX_I2C2_Init();
   MX_TIM1_Init();
+  MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
+
+  //printRadioSettings();
+
   SSD1306_Init();
 
   MPU6050_Init(&hi2c2);
@@ -134,6 +141,7 @@ int main(void)
   myMpuConfig.Sleep_Mode_Bit = 0;
   MPU6050_Config(&myMpuConfig);
 
+  /* FUNCIONA SE FOR FAZER MEDIDAS RELATIVAS DE ANGULO.
   //acc_error
   if(acc_error==0){
 	  for(i=0;i<200;i++){
@@ -163,6 +171,7 @@ int main(void)
 		  }
 	  }
   }
+  */
   /* USER CODE END 2 */
  
  
@@ -174,13 +183,13 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-
+	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_14,GPIO_PIN_SET);
 	  if(HAL_GetTick()-time_velocity_initial>1){
 		  time_velocity_initial=HAL_GetTick();
 
 		  timePrev = time;
 		  time = HAL_GetTick();
-		  elapsed = (time - timePrev) / 1000;
+		  elapsed = (time - timePrev) / 1000.0;
 
 		  MPU6050_Get_Gyro_RawData(&myGyroRaw);
 
@@ -189,8 +198,9 @@ int main(void)
 
 		  MPU6050_Get_Accel_RawData(&myAccelRaw);
 
-		 // acc_angle_x = atan(myAccelRaw.y/sqrt(pow(myAccelRaw.x,2)+pow(myAccelRaw.z,2)))*(180/3.141592654) - acc_error_x;
-		  acc_angle_y = atan(myAccelRaw.x*-1/sqrt(pow(myAccelRaw.y,2)+pow(myAccelRaw.z,2)))*(180/3.141592654) - acc_error_y;
+		 // acc_angle_x = atan(myAccelRaw.y/sqrt(pow(myAccelRaw.x,2)+pow(myAccelRaw.z,2)))*(180/3.141592654) - acc_error_x; //RELATIVO
+		 // acc_angle_y = atan(myAccelRaw.x*-1/sqrt(pow(myAccelRaw.y,2)+pow(myAccelRaw.z,2)))*(180/3.141592654) - acc_error_y; //RELATIVO
+		  acc_angle_y = atan(myAccelRaw.x*-1/sqrt(pow(myAccelRaw.y,2)+pow(myAccelRaw.z,2)))*(180/3.141592654); //ABSOLUTA
 
 		  //final_angle_x = 0.98*(final_angle_x + gyro_angle_x) + 0.02*acc_angle_x;
 		  final_angle_y_init = 0.98*(final_angle_y_init + gyro_angle_y) + 0.02*acc_angle_y; // calcula angulo inicial (graus)
@@ -223,24 +233,41 @@ int main(void)
 
 	  if(HAL_GetTick()-time_PID>5){
 		  time_PID=HAL_GetTick();
-		  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13); // pisca o led
 
 		  saida = kp*erro_init + ki*erro_integrado + kd*erro_derivado; // devo atualizar o calculo.
 		  saida *=(1024/90);
-		  erro_integrado = 0;
 	  }
+
 	  if(HAL_GetTick()-time_pwm>1){
 		  time_pwm=HAL_GetTick();
-
-		  if(saida<0){
-			  saida*=-1;
+		  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13); // pisca o led
+		  if(final_angle_y_init<40 && final_angle_y_init>-40){
+			  if(saida>=0){
+				  TIM1->CCR1 = saida;
+				  TIM1->CCR2 = 0;
+			  }
+			  else if(saida<0){
+				  aux_saida=saida*-1;
+				  TIM1->CCR1 = 0;
+				  TIM1->CCR2 = aux_saida;
+			  }
 		  }
-		  TIM1->CCR1 = saida;
+		  else{
+			  TIM1->CCR1 = 0;
+			  TIM1->CCR2 = 0;
+			  erro_integrado = 0;
+		  }
+
 
 	  }
-	  if(HAL_GetTick()-now_display > 100){
+
+	  /*
+
+	  //não vou usar mas os pinos são B8 e B9.
+	  if(HAL_GetTick()-now_display > 200){
 		  now_display = HAL_GetTick();
-		  itoa(final_angle_y_final,angle,10);
+		  SSD1306_Clear();
+		  itoa(final_angle_y_init,angle,10);
 		  if(final_angle_y_final>=0){
 			  if(final_angle_y_final<10){
 				  SSD1306_GotoXY (48,20);
@@ -261,6 +288,7 @@ int main(void)
 		  }
 		  SSD1306_UpdateScreen();
 	  }
+	  */
   }
   /* USER CODE END 3 */
 }
@@ -371,6 +399,44 @@ static void MX_I2C2_Init(void)
 }
 
 /**
+  * @brief SPI1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_SPI1_Init(void)
+{
+
+  /* USER CODE BEGIN SPI1_Init 0 */
+
+  /* USER CODE END SPI1_Init 0 */
+
+  /* USER CODE BEGIN SPI1_Init 1 */
+
+  /* USER CODE END SPI1_Init 1 */
+  /* SPI1 parameter configuration*/
+  hspi1.Instance = SPI1;
+  hspi1.Init.Mode = SPI_MODE_MASTER;
+  hspi1.Init.Direction = SPI_DIRECTION_2LINES;
+  hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
+  hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
+  hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
+  hspi1.Init.NSS = SPI_NSS_SOFT;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_32;
+  hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
+  hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
+  hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
+  hspi1.Init.CRCPolynomial = 10;
+  if (HAL_SPI_Init(&hspi1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN SPI1_Init 2 */
+
+  /* USER CODE END SPI1_Init 2 */
+
+}
+
+/**
   * @brief TIM1 Initialization Function
   * @param None
   * @retval None
@@ -461,18 +527,24 @@ static void MX_GPIO_Init(void)
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOD_CLK_ENABLE();
-  __HAL_RCC_GPIOB_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13|GPIO_PIN_14, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : PC13 */
-  GPIO_InitStruct.Pin = GPIO_PIN_13;
+  /*Configure GPIO pins : PC13 PC14 */
+  GPIO_InitStruct.Pin = GPIO_PIN_13|GPIO_PIN_14;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : CSN_PIN_Pin CE_PIN_Pin */
+  GPIO_InitStruct.Pin = CSN_PIN_Pin|CE_PIN_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
 
